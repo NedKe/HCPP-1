@@ -1,0 +1,10 @@
+/* Background header image*/
+#hero-image
+{
+   
+    background: url(../images/twoplanes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: top;
+}
