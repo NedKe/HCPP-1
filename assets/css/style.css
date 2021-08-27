@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* reseting all the default element properties*/
 * {
     margin: 0;
     padding: 0;
-    border: 0;
 }
 body {
     font-family: 'Nunito', sans-serif;
@@ -19,17 +20,19 @@ body {
     height: 600px;
     background-position: top;
 }
+/* Logo and navigation*/
 #logo {
     position: absolute;
     top: 0%;
     font-family: 'Dancing Script', cursive;
     color: white;
-    margin-left: 10px;
+    margin: 30px;
+
 }
 #header > nav {
     position: absolute;
     right: 0%;
-    top: 6%;
+    top: 4%;
     margin-right: 100px;  
 }
 nav > a {
@@ -43,3 +46,54 @@ nav > a {
     border-bottom: 1px solid black;
     color: #000;
 }
+/* h2,p and form inputs*/
+.content-container {
+    width: 40%;
+    margin: 40px auto;
+}
+input[type=text], input[type=email], input[type=date], input[type=time] {
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.form-row {
+    display: flex;
+  }
+  .col1 {
+    width: 50%;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .col1 input {
+    width: 100%;
+  }
+  .col2
+  {
+    width: 50%;
+    padding-top: 10px;
+  }
+  .col2 input 
+  {
+    width: 100%;
+  }
+  #email_add {
+    width: 100%;
+    padding-top: 15px;
+}
+  #email_add input {
+    width: 100%;
+}
+  .submit {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+  .submit input {
+    padding: 10px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 3px;
+}
+  #term {
+      padding-top: 20px;
+  }
