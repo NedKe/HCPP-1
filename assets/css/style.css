@@ -14,37 +14,39 @@ body {
 }
 #hero-image {
    
-    background: url(../images/twoplanes.jpg);
+    background: url(../images/pexels-thgusstavo-santana-3052302.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    background-position: top;
+    background-position: center;
 }
 /* Logo and navigation*/
 #logo {
     position: absolute;
     top: 0%;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Allison', cursive;
+    font-size: 60px;
     color: white;
-    margin: 30px;
+    margin: 20px;
 
 }
-#header > nav {
+#header nav {
     position: absolute;
-    right: 0%;
+    left: 45%;
     top: 4%;
     margin-right: 100px;  
 }
-nav > a {
+nav a {
     padding: 10px 20px;
     text-decoration: none;
-    color: #666;
-    font-size: 16px;
+    color: #eee;
+    font-size: 20px;
     letter-spacing: 1px;
+    transition: color 0.2s;
 }
 #navbar a:hover {
-    border-bottom: 1px solid black;
-    color: #000;
+    border-bottom: 2px solid #222;
+    color: #222;
 }
 /* h2,p and form inputs*/
 .content-container {
@@ -52,9 +54,16 @@ nav > a {
     margin: 40px auto;
 }
 input[type=text], input[type=email], input[type=date], input[type=time] {
-    padding: 5px;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 3px;
+    outline: none;
+    border: 2px solid #666;
+}
+
+input:focus {
+  border-color:rgb(237, 186, 154);
+  
 }
 
 .form-row {
@@ -90,7 +99,7 @@ input[type=text], input[type=email], input[type=date], input[type=time] {
 }
   .submit input {
     padding: 10px;
-    background-color: lightcoral;
+    background-color: rgb(237, 186, 154);
     border: none;
     border-radius: 3px;
 }
