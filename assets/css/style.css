@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
 /* Background header image*/
+#header {
+    position: relative;
+}
 #hero-image {
    
     background: url(../images/twoplanes.jpg);
@@ -13,4 +23,21 @@
     font-family: 'Dancing Script', cursive;
     color: white;
     margin-left: 10px;
+}
+#header > nav {
+    position: absolute;
+    right: 0%;
+    top: 6%;
+    margin-right: 100px;  
+}
+nav > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #666;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+#navbar a:hover {
+    border-bottom: 1px solid black;
+    color: #000;
 }
