@@ -1,10 +1,16 @@
 /* Background header image*/
-#hero-image
-{
+#hero-image {
    
     background: url(../images/twoplanes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
     background-position: top;
+}
+#logo {
+    position: absolute;
+    top: 0%;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin-left: 10px;
 }
