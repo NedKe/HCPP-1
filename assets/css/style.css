@@ -44,13 +44,22 @@ nav a {
     transition: color 0.2s;
 }
 #navbar a:hover {
-    border-bottom: 2px solid #AD6F61;
-    color: #AD6F61;
+    border-bottom: 2px solid #edba9a;
+    color: #edba9a;
 }
 /* h2,p and form inputs*/
 .content-container {
     width: 40%;
     margin: 40px auto;
+}
+.content-container h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 15px;
+}
+.content-container p {
+    text-align: center;
+    padding-bottom: 30px;
 }
 input[type=text], input[type=email], input[type=date], input[type=time] {
     padding: 10px;
@@ -113,6 +122,10 @@ input:focus {
     align-items: center;
     justify-content: center;
     font-family:'Nunito', sans-serif;
+    border-top: 2px solid #aaa;
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
   }
   footer .logo {
     text-decoration: none;
