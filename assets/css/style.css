@@ -21,13 +21,18 @@ body {
     background-position: center;
 }
 /* Logo and navigation*/
-#logo {
+header .logo {
     position: absolute;
-    top: 0%;
     font-family: 'Allison', cursive;
     font-size: 60px;
     color: white;
     margin: 20px;
+}
+footer .logo {
+  position: absolute;
+  font-family: 'Allison', cursive;
+  font-size: 60px;
+  margin: 20px;
 
 }
 #header nav {
