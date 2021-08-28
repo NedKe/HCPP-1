@@ -44,8 +44,8 @@ nav a {
     transition: color 0.2s;
 }
 #navbar a:hover {
-    border-bottom: 2px solid #edba9a;
-    color: #edba9a;
+    border-bottom: 2px solid #AD6F61;
+    color: #AD6F61;
 }
 /* h2,p and form inputs*/
 .content-container {
@@ -102,18 +102,34 @@ input:focus {
   #term {
       padding-top: 20px;
   }
+  hr
+{
+   border-top: 1px solid #3a3a3a;
+   margin: 20px 60px;
+}
   /* footer */
   footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    font-family:'Nunito', sans-serif;
   }
   footer .logo {
     text-decoration: none;
     color: #BBA79C;
+    padding: 0 0 10px 0;
   }
   footer h1 {
     font-family: 'Allison', cursive;
     font-size: 30px;
+    padding: 0 30px 0;
   }
+.social_media i {
+  font-size: 160%;
+  color: #BBA79C;
+  padding: 0 40px;
+}
+.social_media i:hover {
+  color: #AD6F61;
+}
+
