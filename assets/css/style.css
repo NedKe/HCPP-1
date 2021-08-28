@@ -28,13 +28,7 @@ header .logo {
     color: white;
     margin: 20px;
 }
-footer .logo {
-  position: absolute;
-  font-family: 'Allison', cursive;
-  font-size: 60px;
-  margin: 20px;
 
-}
 #header nav {
     position: absolute;
     left: 45%;
@@ -50,8 +44,8 @@ nav a {
     transition: color 0.2s;
 }
 #navbar a:hover {
-    border-bottom: 2px solid #222;
-    color: #222;
+    border-bottom: 2px solid #edba9a;
+    color: #edba9a;
 }
 /* h2,p and form inputs*/
 .content-container {
@@ -65,12 +59,9 @@ input[type=text], input[type=email], input[type=date], input[type=time] {
     outline: none;
     border: 2px solid #666;
 }
-
 input:focus {
-  border-color:rgb(237, 186, 154);
-  
+  border-color: #edba9a;
 }
-
 .form-row {
     display: flex;
   }
@@ -104,10 +95,25 @@ input:focus {
 }
   .submit input {
     padding: 10px;
-    background-color: rgb(237, 186, 154);
+    background-color: #edba9a;
     border: none;
     border-radius: 3px;
 }
   #term {
       padding-top: 20px;
+  }
+  /* footer */
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  footer .logo {
+    text-decoration: none;
+    color: #BBA79C;
+  }
+  footer h1 {
+    font-family: 'Allison', cursive;
+    font-size: 30px;
   }
