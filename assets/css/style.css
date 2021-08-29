@@ -30,7 +30,11 @@ header .logo {
   font-family: 'Allison', cursive;
   font-size: 60px;
   color: white;
-  margin: 20px;
+  margin: 10px 40px;
+}
+
+header .logo img {
+  width: 140px;
 }
 
 #header nav {
@@ -179,7 +183,7 @@ footer h1 {
   color: #AD6F61;
 }
 
-/* page two text and pictures*/
+/* Page planes text and pictures*/
 .content-container-planes {
   width: 80%;
   margin: 40px auto;
@@ -196,7 +200,6 @@ footer h1 {
 }
 
 .content-container-planes p {
-  text-align: justify;
   padding-bottom: 30px;
   padding-right: 30px;
   color: #555;
@@ -217,4 +220,27 @@ footer h1 {
 
 .col1-planes {
   padding-right: 10px;
+}
+
+/* page about us header*/
+.header-about {
+  height: 600px;
+  background-color: #AB7366;
+}
+
+.header-about div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+}
+
+.header-about div video {
+  border: 2px solid #edba9a;
+}
+
+.header-about h2 {
+  text-align: center;
+  color: #522e17;
 }
