@@ -76,7 +76,7 @@ nav a {
   font-weight: 300;
 }
 
-.content-container p {
+.content-container>p {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -84,7 +84,8 @@ nav a {
 input[type=text],
 input[type=email],
 input[type=date],
-input[type=time] {
+input[type=time],
+select {
   padding: 10px;
   box-sizing: border-box;
   border-radius: 3px;
@@ -106,7 +107,8 @@ input:focus {
   padding-top: 10px;
 }
 
-.col1 input {
+.col1 input,
+.col1 select {
   width: 100%;
 }
 
@@ -115,7 +117,7 @@ input:focus {
   padding-top: 10px;
 }
 
-.col2 input {
+.col2 input[type=text] {
   width: 100%;
 }
 
@@ -244,3 +246,5 @@ footer h1 {
   text-align: center;
   color: #522e17;
 }
+
+/* styling flight certificate page*/

@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <title>Swedish Ultraflyers</title>
 </head>
-<!--here is the form to register for the flight school-->
 
 <body>
     <header id=header>
@@ -23,15 +22,11 @@
             <a href="about_us.html">About us</a>
             <a href="planes.html">Planes</a>
             <a href="#">Airfield</a>
-            <a href="flight-Certificate.html">Flight Certificate</a>
+            <a href="flight-Certificate.html" class="in-use">Flight Certificate</a>
         </nav>
     </header>
     <div class="content-container">
-        <h2>Flying is not a dream, Fly to feel free!</h2>
-        <p>Sign up for a test flight session to find out if you want to have a certificate or join Swedish
-            Ultraflyers club.
-            You will meet our instructors, ask any question and become familiar with our club and airplanes.
-            The session is 45 minutes and costs 1500 SEK but can be customized according to your wish!</p>
+        <h2>Submit your application to start your training!</h2>
         <form action="https://formdump.codeinstitute.net/" method="POST">
             <div class="two-column-row">
                 <div class="col1">
@@ -43,31 +38,34 @@
                     <input id="lname" name="last_name" type="text" placeholder="Enter your last name" required>
                 </div>
             </div>
-            <div id="email_add">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email_address" placeholder="example@gmail.com" required>
-            </div>
-
             <div class="two-column-row">
                 <div class="col1">
-                    <label for="date">Date</label>
-                    <input type="date" id="date" name="flight_date" value="flight_date" placeholder="27/08/2021"
-                        required>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" placeholder="example@gmail.com" required>
                 </div>
                 <div class="col2">
-                    <label for="time">Time</label>
-                    <input type="time" id="time" name="flight_time" value="flight_time" placeholder="00:00" required>
+                    <label for="contact-no">Contact number</label>
+                    <input id="contact-no" name="contact-no" type="text" placeholder="Enter your contact number"
+                        required>
                 </div>
             </div>
             <div class="two-column-row">
-                <div class="submit">
-                    <input type="submit" value="Let's Fly!">
+                <div class="col1">
+                    <label for="training-selection">What are you applying for?</label>
+                    <select name="training-selection" id="training-selection" required>
+                        <option value="">-Please choose</option>
+                        <option value="ul">Ultra Light Airplane (UL)</option>
+                        <option value="ul-sea">Ultra Light Seaplane (ULS)</option>
+                        <option value="theory-course">Theory Package</option>
+                    </select>
                 </div>
-                <div id="term">
-                    <input type="checkbox" id="terms" name="terms_conditions" value="accept" required>
-                    <label for="terms">Terms and conditions</label>
+                <div class="col2">
+                    <p>Are you above 18 years old?<p>
+                            <label for="yes-no">Yes</label>
+                            <input type="radio" name="yes-no" value="yes" checked>
+                            <label for="yes-no">No</label>
+                            <input type="radio" name="yes-no" value="no" checked>
                 </div>
-
             </div>
         </form>
     </div>
