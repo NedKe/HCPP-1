@@ -268,6 +268,7 @@ footer h1 {
 .content-container-price p,
 .content-container-price ul {
   color: #555;
+  list-style-type: none;
 }
 
 .content-container-price h1 {
@@ -286,18 +287,17 @@ footer h1 {
   width: 10%;
 }
 
+.col2 input[type=date] {
+  padding: 9px;
+}
+
 .price {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-ul {
-  list-style: none;
-}
-
 .price h1,
 .price h3,
 .price ul {
-  list-style-type: none;
   text-align: center;
 }
