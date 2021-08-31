@@ -224,6 +224,12 @@ footer h1 {
   padding-right: 10px;
 }
 
+.col1-planes img,
+.col2-planes img {
+  width: 600px;
+}
+
+
 /* page about us header*/
 .header-about {
   height: 600px;
@@ -253,6 +259,12 @@ footer h1 {
 
 #sky-pic {
   transform: translate(-50%, -60%);
+}
+
+#three-planes-pic,
+#sky-pic,
+#formation {
+  width: 500px;
 }
 
 #formation {
@@ -305,4 +317,33 @@ footer h1 {
 .price h3,
 .price ul {
   text-align: center;
+}
+
+/* Large screen sizes such as laptops and desktops, 1200px and up*/
+@media screen and (min-width: 1200px) {
+  .content-container {
+    width: 50%;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  #sky-pic,
+  #three-planes-pic {
+    width: 350px;
+  }
+
+  #formation {
+    transform: translate(-10%, -5%)
+  }
+
+  .content-container-planes {
+    width: 95%;
+  }
+
+  .col1-planes img,
+  .col2-planes img {
+    width: 550px;
+  }
 }
