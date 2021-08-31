@@ -259,6 +259,11 @@ footer h1 {
   transform: translate(20%, -10%);
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* styling flight certificate page*/
 .content-container-price {
   width: 50%;
