@@ -63,7 +63,7 @@ nav a {
   color: #edba9a;
 }
 
-/* h2,p and form inputs*/
+/* h2,p and form inputs in homepage and flight certificate*/
 .content-container {
   width: 40%;
   margin: 40px auto;
@@ -186,29 +186,29 @@ footer h1 {
 }
 
 /* Page planes text and pictures*/
-.content-container-planes {
+.content-container-planes-about {
   width: 80%;
   margin: 40px auto;
 }
 
-.content-container-planes .two-column-row {
+.content-container-planes-about .two-column-row {
   margin-top: 100px;
 }
 
-.content-container-planes h2 {
+.content-container-planes-about h2 {
   font-size: 36px;
   padding-bottom: 15px;
   font-weight: 300;
 }
 
-.content-container-planes p {
+.content-container-planes-about p {
   padding-bottom: 30px;
   padding-right: 30px;
   color: #555;
 
 }
 
-.content-container-planes .two-column-row>div {
+.content-container-planes-about .two-column-row>div {
   display: flex;
   align-items: center;
 }
@@ -267,15 +267,12 @@ video {
   transform: translate(-50%, -60%);
 }
 
-#three-planes-pic,
-#sky-pic,
-#formation {
+.col1-about img,
+.col2-about img {
   width: 500px;
 }
 
-#formation {
-  transform: translate(20%, -10%);
-}
+
 
 .contact-info {
   display: flex;
@@ -327,7 +324,7 @@ video {
 
 /* screen sizes from 500px wide and down*/
 @media screen and (max-width: 500px) {
-  .content-container-planes {
+  .content-container-planes-about {
     width: 95%;
   }
 
@@ -351,11 +348,11 @@ video {
     padding-right: 0;
   }
 
-  .col1-planes img {
-    order: -1;
+  .skylane .col1-planes {
+    order: 2;
   }
 
-  .content-container-planes .two-column-row {
+  .content-container-planes-about .two-column-row {
     margin-top: 0;
   }
 
@@ -399,4 +396,10 @@ video {
   .contact-info {
     flex-wrap: wrap;
   }
+
+  .history .col2-about {
+    transform-origin: left bottom;
+    transform: scale(0.66);
+  }
+
 }
