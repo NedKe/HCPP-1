@@ -319,31 +319,46 @@ footer h1 {
   text-align: center;
 }
 
-/* Large screen sizes such as laptops and desktops, 1200px and up*/
-@media screen and (min-width: 1200px) {
-  .content-container {
-    width: 50%;
-  }
-
-  footer {
-    width: 100%;
-  }
-
-  #sky-pic,
-  #three-planes-pic {
-    width: 350px;
-  }
-
-  #formation {
-    transform: translate(-10%, -5%)
-  }
-
+/* screen sizes from 500px wide and down*/
+@media screen and (max-width: 500px) {
   .content-container-planes {
     width: 95%;
   }
 
+  .two-column-row {
+    flex-wrap: wrap;
+  }
+
+  .two-column-row>div {
+    width: 100%;
+  }
+
   .col1-planes img,
   .col2-planes img {
-    width: 550px;
+    width: 100%;
   }
+
+  .col1-planes {
+    padding-right: 0;
+  }
+
+  .content-container-planes .two-column-row {
+    margin-top: 0;
+  }
+}
+
+/* #header nav {
+    position: absolute;
+    left: 45%;
+    top: 4%;
+    margin-right: 100px;
+  }
+
+  header .logo {
+    position: absolute;
+    font-family: 'Allison', cursive;
+    font-size: 60px;
+    color: white;
+    margin: 10px 40px;
+  } */
 }
