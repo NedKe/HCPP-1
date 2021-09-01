@@ -25,19 +25,14 @@ body {
 }
 
 /* Logo and navigation*/
-header .logo {
-  position: absolute;
-  font-family: 'Allison', cursive;
-  font-size: 60px;
-  color: white;
-  margin: 10px 40px;
-}
 
 header .logo img {
   width: 140px;
+  position: absolute;
+  margin: 10px 40px;
 }
 
-#header nav {
+header nav {
   position: absolute;
   left: 45%;
   top: 4%;
@@ -53,7 +48,7 @@ nav a {
   transition: color 0.2s;
 }
 
-#navbar a:hover {
+nav a:hover {
   border-bottom: 2px solid #edba9a;
   color: #edba9a;
 }
@@ -381,6 +376,48 @@ video {
     padding: 15px;
   }
 
+  .contact-info {
+    flex-wrap: wrap;
+  }
+
+  .history .col2-about {
+    transform-origin: left bottom;
+    transform: scale(0.66);
+  }
+
+  /*content in page flight certificate 500 px and down*/
+  .content-container-price {
+    width: 95%;
+  }
+
+  .col1 ul li,
+  .col2 ul li,
+  .price ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+
+  /* header media query 500px and down*/
+  header .logo img {
+    margin-left: 5px;
+    width: 25%;
+  }
+
+  header nav {
+    display: flex;
+    left: 30%;
+  }
+
+  nav a {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  #hero-image {
+    height: 300px;
+    background-position: 72%;
+  }
+
   .header-about {
     height: 250px;
   }
@@ -391,25 +428,5 @@ video {
 
   .header-about h2 {
     font-size: 15px;
-  }
-
-  .contact-info {
-    flex-wrap: wrap;
-  }
-
-  .history .col2-about {
-    transform-origin: left bottom;
-    transform: scale(0.66);
-  }
-
-  .content-container-price {
-    width: 95%;
-  }
-
-  .col1 ul li,
-  .col2 ul li,
-  .price ul li {
-    border-bottom: 1px solid #eee;
-    padding: 10px 0;
   }
 }
