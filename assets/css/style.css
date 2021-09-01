@@ -345,6 +345,31 @@ footer h1 {
   .content-container-planes .two-column-row {
     margin-top: 0;
   }
+
+  .content-container {
+    width: 95%;
+  }
+
+  .col1 {
+    padding-right: 0;
+  }
+
+  footer {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  footer h1 {
+    margin-top: -20px;
+  }
+
+  .social_media i {
+    padding: 15px;
+  }
 }
 
 /* #header nav {
