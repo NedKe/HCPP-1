@@ -248,10 +248,11 @@ footer h1 {
   margin-top: 20px;
 }
 
-.header-about div video {
+video {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   border: 1px solid #5a2e13;
+  width: 750px;
 }
 
 .header-about h2 {
@@ -260,6 +261,7 @@ footer h1 {
 }
 
 /* page about us content*/
+
 
 #sky-pic {
   transform: translate(-50%, -60%);
@@ -349,6 +351,10 @@ footer h1 {
     padding-right: 0;
   }
 
+  .col1-planes img {
+    order: -1;
+  }
+
   .content-container-planes .two-column-row {
     margin-top: 0;
   }
@@ -378,20 +384,19 @@ footer h1 {
     padding: 15px;
   }
 
-}
-
-/* #header nav {
-    position: absolute;
-    left: 45%;
-    top: 4%;
-    margin-right: 100px;
+  .header-about {
+    height: 250px;
   }
 
-  header .logo {
-    position: absolute;
-    font-family: 'Allison', cursive;
-    font-size: 60px;
-    color: white;
-    margin: 10px 40px;
-  } */
+  video {
+    width: 100%;
+  }
+
+  .header-about h2 {
+    font-size: 15px;
+  }
+
+  .contact-info {
+    flex-wrap: wrap;
+  }
 }
