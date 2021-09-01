@@ -402,4 +402,14 @@ video {
     transform: scale(0.66);
   }
 
+  .content-container-price {
+    width: 95%;
+  }
+
+  .col1 ul li,
+  .col2 ul li,
+  .price ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
 }
