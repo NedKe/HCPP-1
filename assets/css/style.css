@@ -214,18 +214,22 @@ footer h1 {
 }
 
 .col1-planes,
-.col2-planes {
+.col2-planes,
+.col1-about,
+.col2-about {
   width: 50%;
   padding-top: 10px;
 }
 
 
-.col1-planes {
+.col1-planes,
+.col1-about {
   padding-right: 10px;
 }
 
 .col1-planes img,
-.col2-planes img {
+.col1-about img .col2-planes img,
+.col2-about img {
   width: 600px;
 }
 
@@ -334,11 +338,14 @@ footer h1 {
   }
 
   .col1-planes img,
-  .col2-planes img {
+  .col2-planes img,
+  .col1-about img,
+  .col2-about img {
     width: 100%;
   }
 
-  .col1-planes {
+  .col1-planes,
+  .col1-about {
     padding-right: 0;
   }
 
@@ -370,6 +377,7 @@ footer h1 {
   .social_media i {
     padding: 15px;
   }
+
 }
 
 /* #header nav {
