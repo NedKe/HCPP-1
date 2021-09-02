@@ -336,6 +336,17 @@ video {
   .social_media i {
     padding: 15px;
   }
+
+  .content-container-price {
+    width: 70%;
+  }
+
+  .col1 ul li,
+  .col2 ul li,
+  .price ul li {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
 }
 
 /* Media query for screen sizes from 500px wide and down*/
