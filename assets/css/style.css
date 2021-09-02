@@ -223,7 +223,8 @@ footer h1 {
 }
 
 .col1-planes img,
-.col1-about img .col2-planes img,
+.col1-about img,
+.col2-planes img,
 .col2-about img {
   width: 600px;
 }
