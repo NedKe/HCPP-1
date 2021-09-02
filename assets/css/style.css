@@ -417,6 +417,15 @@ video {
     margin: 0 auto;
   }
 
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    left: auto;
+    width: 80%;
+    margin-right: 0;
+  }
+
   /* Media query for screen sizes from 500px wide and down*/
   @media screen and (max-width: 500px) {
     .content-container-planes-about {
