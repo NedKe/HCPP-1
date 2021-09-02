@@ -223,25 +223,23 @@ footer h1 {
 }
 
 .col1-planes img,
-.col1-about img,
-.col2-planes img,
-.col2-about img {
-  width: 600px;
+.col2-planes img {
+  width: 100%;
 }
 
 
-/* page about us header*/
+
+/* page about us header and content*/
 .header-about {
-  height: 600px;
+  height: 500px;
   background-color: rgb(34, 11, 6);
 }
 
 .header-about div {
   position: absolute;
-  top: 50%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 20px;
 }
 
 video {
@@ -256,19 +254,18 @@ video {
   color: #f3b289;
 }
 
-/* page about us content*/
-
-
 #sky-pic {
-  transform: translate(-50%, -60%);
+  width: 300px;
+  transform: translate(-60%, -60%);
 }
 
-.col1-about img,
 .col2-about img {
-  width: 500px;
+  width: 400px;
 }
 
-
+.col1-about img {
+  width: 100%;
+}
 
 .contact-info {
   display: flex;
@@ -318,7 +315,30 @@ video {
   text-align: center;
 }
 
-/* screen sizes from 500px wide and down*/
+/* Media query for screen sizes from 1200px wide and down*/
+@media screen and (max-width: 1200px) {
+  .content-container {
+    width: 90%;
+  }
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer p {
+    font-size: 15px;
+  }
+
+  footer h1 {
+    margin-top: -20px;
+  }
+
+  .social_media i {
+    padding: 15px;
+  }
+}
+
+/* Media query for screen sizes from 500px wide and down*/
 @media screen and (max-width: 500px) {
   .content-container-planes-about {
     width: 95%;
@@ -386,7 +406,6 @@ video {
     transform: scale(0.66);
   }
 
-  /*content in page flight certificate 500 px and down*/
   .content-container-price {
     width: 95%;
   }
@@ -398,7 +417,6 @@ video {
     padding: 10px 0;
   }
 
-  /* header media query 500px and down*/
   header .logo img {
     margin-left: 5px;
     width: 25%;
@@ -433,6 +451,6 @@ video {
   .header-about video {
     font-size: 15px;
     width: 100%;
-    top: 30%;
+    top: 35%;
   }
 }
