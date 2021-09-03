@@ -63,7 +63,7 @@ nav a:hover {
 
 /* h2,p and form inputs in homepage and certificate*/
 .content-container {
-  width: 50%;
+  width: 40%;
   margin: 0 auto;
 }
 
@@ -72,9 +72,9 @@ nav a:hover {
   font-size: 36px;
 }
 
+
 .content-container>p {
   text-align: center;
-  padding-bottom: 30px;
 }
 
 input[type=text],
@@ -217,10 +217,7 @@ section {
   padding: 100px 0;
 }
 
-#contact {
-  background-color: #fdf3e5;
-}
-
+#fly,
 #history,
 #dynamic,
 #ul-cert {
@@ -233,7 +230,9 @@ section {
   background-color: #e4f7f3;
 }
 
-#seaplane {
+#signup,
+#seaplane,
+#application-form {
   background-color: #fdf3e5;
 }
 
@@ -243,10 +242,6 @@ section {
 
 #booking {
   background-color: #f2f3db;
-}
-
-#application-form {
-  background-color: #fdf3e5;
 }
 
 .col1-planes img,
@@ -287,6 +282,10 @@ video {
 .col2-about img,
 .col1-about img {
   width: 100%;
+}
+
+#contact {
+  background-color: #fdf3e5;
 }
 
 .contact-info {
