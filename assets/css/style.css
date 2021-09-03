@@ -24,7 +24,7 @@ body {
   background-position: center;
 }
 
-/* Logo and navigation*/
+/* Logo*/
 
 header .logo img {
   width: 130px;
@@ -32,16 +32,19 @@ header .logo img {
   margin: 10px 40px;
 }
 
-header nav {
-  position: absolute;
-  left: 45%;
+/*Fixed nav bar*/
+
+nav {
+  position: fixed;
+  display: flex;
+  right: 0;
   top: 4%;
-  margin-right: 100px;
   background: rgba(0, 0, 0, 0.8);
   padding: 10px;
   border-radius: 5px;
 }
 
+/* Nav links*/
 nav a {
   padding: 10px 20px;
   text-decoration: none;
@@ -60,6 +63,7 @@ nav a:hover {
   border-bottom: 2px solid #edba9a;
   color: #edba9a;
 }
+
 
 /* h2,p and form inputs in homepage and certificate*/
 .content-container {
@@ -262,7 +266,7 @@ section {
 
 .header-about div {
   position: absolute;
-  top: 37%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -314,7 +318,6 @@ video {
 .content-container-price {
   width: 50%;
   margin: auto;
-  text-align: center;
 }
 
 .content-container-price p,
@@ -334,7 +337,7 @@ video {
 
 .col1 h1,
 .col2 h1 {
-  text-align: left;
+  padding-left: 20%;
 }
 
 .col1 input[type=radio] {
@@ -349,6 +352,10 @@ video {
 .price h3,
 .price ul {
   text-align: center;
+}
+
+#booking ul {
+  list-style-type: none;
 }
 
 /* Media query for screen sizes from 1200px wide and down*/
