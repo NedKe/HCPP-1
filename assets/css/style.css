@@ -74,7 +74,12 @@ nav a:hover {
 
 
 .content-container>p {
+
   text-align: center;
+}
+
+#signup {
+  padding: 20px 0 100px 0;
 }
 
 input[type=text],
@@ -214,7 +219,7 @@ footer h1 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 100px 0 100px 0;
 }
 
 #fly,
