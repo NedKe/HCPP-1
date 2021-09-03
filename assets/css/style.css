@@ -314,6 +314,7 @@ video {
 .content-container-price {
   width: 50%;
   margin: auto;
+  text-align: center;
 }
 
 .content-container-price p,
