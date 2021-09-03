@@ -40,8 +40,9 @@ nav {
   right: 0;
   top: 4%;
   background: rgba(0, 0, 0, 0.8);
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /* Nav links*/
@@ -60,7 +61,7 @@ nav a:hover {
 }
 
 .in-use {
-  border-bottom: 2px solid #edba9a;
+  border-bottom: 3px solid #edba9a;
   color: #edba9a;
 }
 
@@ -83,7 +84,7 @@ nav a:hover {
 }
 
 #signup {
-  padding: 20px 0 100px 0;
+  padding: 40px 0 40px 0;
 }
 
 input[type=text],
@@ -154,13 +155,16 @@ hr {
   margin: 20px 60px;
 }
 
+.thank-you {
+  padding: 40px 0;
+}
+
 /* footer */
 footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Nunito', sans-serif;
-  border-top: 2px solid #aaa;
   width: 80%;
   margin: 0 auto;
   padding: 30px 0;
@@ -201,8 +205,7 @@ footer h1 {
 }
 
 .content-container-planes-about p {
-  color: #555;
-
+  color: #444;
 }
 
 .content-container-planes-about .two-column-row>div {
@@ -249,19 +252,17 @@ section {
   background-color: #f5e1e1;
 }
 
-#booking {
-  background-color: #f2f3db;
-}
-
 .col1-planes img,
 .col2-planes img {
   width: 100%;
+  border-radius: 5px;
 }
 
-/* page about us header and content*/
+/* page about header and content*/
 .header-about {
   height: 600px;
-  background-color: #f2f3db;
+  background-color: #fdf3e5;
+  border-bottom: 5px solid #eadbc7;
 }
 
 .header-about div {
@@ -291,6 +292,7 @@ video {
 .col2-about img,
 .col1-about img {
   width: 100%;
+  border-radius: 5px;
 }
 
 #contact {
@@ -321,9 +323,13 @@ video {
   text-align: center;
 }
 
+.content-container-price .icon {
+  font-size: 50px;
+}
+
 .content-container-price p,
 .content-container-price ul {
-  color: #555;
+  color: #444;
 }
 
 .content-container-price h1,
@@ -499,7 +505,7 @@ video {
     }
 
     .content-container {
-      width: 95%;
+      width: 85%;
     }
 
     .col1 {
