@@ -318,6 +318,7 @@ video {
 .content-container-price {
   width: 50%;
   margin: auto;
+  text-align: center;
 }
 
 .content-container-price p,
@@ -333,11 +334,6 @@ video {
 .content-container h2 {
   font-weight: 300;
   padding-bottom: 20px;
-}
-
-.col1 h1,
-.col2 h1 {
-  padding-left: 20%;
 }
 
 .col1 input[type=radio] {
