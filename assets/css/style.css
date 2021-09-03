@@ -27,7 +27,7 @@ body {
 /* Logo and navigation*/
 
 header .logo img {
-  width: 140px;
+  width: 130px;
   position: absolute;
   margin: 10px 40px;
 }
@@ -37,12 +37,15 @@ header nav {
   left: 45%;
   top: 4%;
   margin-right: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 nav a {
   padding: 10px 20px;
   text-decoration: none;
-  color: #eee;
+  color: #fff;
   font-size: 20px;
   letter-spacing: 1px;
   transition: color 0.2s;
@@ -58,17 +61,15 @@ nav a:hover {
   color: #edba9a;
 }
 
-/* h2,p and form inputs in homepage and flight certificate*/
+/* h2,p and form inputs in homepage and certificate*/
 .content-container {
-  width: 40%;
-  margin: 40px auto;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .content-container h2 {
   text-align: center;
   font-size: 36px;
-  padding-bottom: 15px;
-  font-weight: 300;
 }
 
 .content-container>p {
@@ -99,7 +100,6 @@ input:focus {
 .col1 {
   width: 50%;
   padding-right: 10px;
-  padding-top: 10px;
 }
 
 .col1 input,
@@ -109,7 +109,6 @@ input:focus {
 
 .col2 {
   width: 50%;
-  padding-top: 10px;
 }
 
 .col2 input {
@@ -160,7 +159,7 @@ footer {
 
 footer .logo {
   text-decoration: none;
-  color: #BBA79C;
+  color: #7F4848;
   padding: 0 0 10px 0;
 }
 
@@ -172,22 +171,18 @@ footer h1 {
 
 .social_media i {
   font-size: 160%;
-  color: #BBA79C;
+  color: #7F4848;
   padding: 0 30px;
 }
 
 .social_media i:hover {
-  color: #AD6F61;
+  color: #BBA79C;
 }
 
 /* Page planes text and pictures*/
 .content-container-planes-about {
   width: 80%;
-  margin: 40px auto;
-}
-
-.content-container-planes-about .two-column-row {
-  margin-top: 100px;
+  margin: 0 auto;
 }
 
 .content-container-planes-about h2 {
@@ -197,8 +192,6 @@ footer h1 {
 }
 
 .content-container-planes-about p {
-  padding-bottom: 30px;
-  padding-right: 30px;
   color: #555;
 
 }
@@ -213,13 +206,47 @@ footer h1 {
 .col1-about,
 .col2-about {
   width: 50%;
-  padding-top: 10px;
 }
 
+.col2-about,
+.col2-planes {
+  padding-left: 90px;
+}
 
-.col1-planes,
-.col1-about {
-  padding-right: 10px;
+section {
+  padding: 100px 0;
+}
+
+#contact {
+  background-color: #fdf3e5;
+}
+
+#history,
+#dynamic,
+#ul-cert {
+  background-color: #f2f2f2;
+}
+
+#school,
+#skylane,
+#general-price {
+  background-color: #e4f7f3;
+}
+
+#seaplane {
+  background-color: #fdf3e5;
+}
+
+#student-price {
+  background-color: #f5e1e1;
+}
+
+#booking {
+  background-color: #f2f3db;
+}
+
+#application-form {
+  background-color: #fdf3e5;
 }
 
 .col1-planes img,
@@ -227,12 +254,10 @@ footer h1 {
   width: 100%;
 }
 
-
-
 /* page about us header and content*/
 .header-about {
-  height: 500px;
-  background-color: rgb(34, 11, 6);
+  height: 600px;
+  background-color: #f2f3db;
 }
 
 .header-about div {
@@ -246,12 +271,12 @@ video {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   border: 1px solid #5a2e13;
-  width: 750px;
+  width: 600px;
 }
 
 .header-about h2 {
   text-align: center;
-  color: #f3b289;
+  color: #614533;
 }
 
 #three-planes-pic {
@@ -259,10 +284,7 @@ video {
   transform: translate(-60%, -60%);
 }
 
-.col2-about img {
-  width: 400px;
-}
-
+.col2-about img,
 .col1-about img {
   width: 100%;
 }
@@ -293,14 +315,16 @@ video {
 .content-container-price p,
 .content-container-price ul {
   color: #555;
-  list-style-type: none;
 }
 
-.content-container-price h1 {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  text-align: center;
+.content-container-price h1,
+.col1 h1,
+.col2 h1,
+.price h1,
+.price h3,
+.content-container h2 {
   font-weight: 300;
+  padding-bottom: 20px;
 }
 
 .col1 h1,
@@ -314,11 +338,6 @@ video {
 
 .col2 input[type=date] {
   padding: 9px;
-}
-
-.price {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 .price h1,
@@ -382,8 +401,13 @@ video {
     margin: auto;
   }
 
-  .history>.col2-about {
-    padding-top: 15%;
+  .col2-about,
+  .col2-planes {
+    padding-left: 0;
+  }
+
+  .col2-about {
+    padding-top: 20px;
   }
 
   .contact-info {
@@ -422,14 +446,20 @@ video {
     justify-content: flex-end;
     right: 0;
     left: auto;
-    width: 80%;
     margin-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  header nav a {
+    color: #fff;
   }
 
   /* Media query for screen sizes from 500px wide and down*/
   @media screen and (max-width: 500px) {
     .content-container-planes-about {
-      width: 95%;
+      width: 85%;
     }
 
     .two-column-row {
@@ -486,17 +516,17 @@ video {
       padding: 15px;
     }
 
+    .contact-info {
+      width: auto;
+    }
+
     .contact-info>div {
       flex-wrap: wrap;
     }
 
     .contact-info>div div {
       width: 100%;
-    }
-
-    .history .col2-about {
-      transform-origin: left bottom;
-      transform: scale(0.66);
+      margin-top: 40px;
     }
 
     .content-container-price {
@@ -520,12 +550,12 @@ video {
       justify-content: flex-end;
       right: 0;
       left: auto;
-      width: 80%;
+      width: 70%;
       margin-right: 0;
     }
 
     nav a {
-      font-size: 10px;
+      font-size: 14px;
       padding: 10px;
     }
 
