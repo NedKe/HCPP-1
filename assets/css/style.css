@@ -167,6 +167,10 @@ input:focus {
   padding-right: 10px;
 }
 
+.two-column-row .last-row {
+  align-items: center;
+}
+
 .submit input {
   padding: 10px;
   background-color: #edba9a;
