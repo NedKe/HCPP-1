@@ -10,9 +10,36 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+a {
+  color: #6F3E3E;
+}
+
 /* Background header image*/
 #header {
   position: relative;
+}
+
+header {
+  min-height: 140px;
+}
+
+.terms-main {
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.terms-main .content-container h2,
+.terms-main .content-container p {
+  text-align: left;
+}
+
+.terms-main ul {
+  margin-left: 20px;
+}
+
+.terms-main h2,
+h3 {
+  margin: 10px 0;
 }
 
 #hero-image {
@@ -27,9 +54,10 @@ body {
 /* Logo*/
 
 header .logo img {
-  width: 130px;
+  width: 100px;
   position: absolute;
-  margin: 10px 40px;
+  z-index: 2;
+  margin: 25px 30px;
 }
 
 /*Fixed nav bar*/
@@ -260,6 +288,7 @@ section {
 
 /* page about header and content*/
 .header-about {
+  position: relative;
   height: 600px;
   background-color: #fdf3e5;
   border-bottom: 5px solid #eadbc7;
@@ -267,12 +296,12 @@ section {
 
 .header-about div {
   position: absolute;
-  top: 35%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-video {
+.header-about div video {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   border: 1px solid #5a2e13;
@@ -323,6 +352,10 @@ video {
   text-align: center;
 }
 
+.content-container-price ul {
+  list-style: none;
+}
+
 .content-container-price .icon {
   font-size: 50px;
 }
@@ -362,6 +395,14 @@ video {
 
 /* Media query for screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
+  .header-about div {
+    width: 60%;
+  }
+
+  .header-about div video {
+    width: 100%;
+  }
+
   .content-container {
     width: 90%;
   }
@@ -394,7 +435,7 @@ video {
   .col1 ul li,
   .col2 ul li,
   .price ul li {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(112, 128, 144, 0.5);
     padding: 10px 0;
   }
 
@@ -403,16 +444,13 @@ video {
     flex-wrap: wrap;
   }
 
-  .col1-about>div {
-    padding-top: 65px;
-  }
-
   .col1-about,
   .col2-about,
   .col1-planes,
   .col2-planes {
     width: 80%;
     margin: auto;
+    padding-top: 20px;
   }
 
   .col2-about,
@@ -464,6 +502,7 @@ video {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
   }
 
   header nav a {
@@ -474,6 +513,10 @@ video {
   @media screen and (max-width: 500px) {
     .content-container-planes-about {
       width: 85%;
+    }
+
+    section {
+      padding: 40px 0;
     }
 
     .two-column-row {
@@ -504,7 +547,8 @@ video {
       margin-top: 0;
     }
 
-    .content-container {
+    .content-container,
+    .content-container-price {
       width: 85%;
     }
 
@@ -543,20 +587,15 @@ video {
       margin-top: 40px;
     }
 
-    .content-container-price {
-      width: 95%;
-    }
-
     .col1 ul li,
     .col2 ul li,
     .price ul li {
-      border-bottom: 1px solid #eee;
+      border-bottom: 1px solid rgba(112, 128, 144, 0.5);
       padding: 10px 0;
     }
 
     header .logo img {
       margin-left: 5px;
-      width: 25%;
     }
 
     header nav {
@@ -564,12 +603,12 @@ video {
       justify-content: flex-end;
       right: 0;
       left: auto;
-      width: 70%;
+      width: 65%;
       margin-right: 0;
     }
 
     nav a {
-      font-size: 14px;
+      font-size: 13px;
       padding: 10px;
     }
 
@@ -579,15 +618,16 @@ video {
     }
 
     .header-about {
-      height: 300px;
+      height: 400px;
     }
 
-
     .header-about div,
-    .header-about h2,
-    .header-about video {
+    .header-about h2 {
       font-size: 15px;
-      width: 100%;
-      top: 35%;
+      width: 90%;
+    }
+
+    #booking .col2 {
+      margin-top: 40px;
     }
   }
