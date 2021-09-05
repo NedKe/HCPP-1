@@ -42,7 +42,7 @@ header .logo {
 
 /* The background image is taken from (https://www.aopa.org/news-and-media/all-news/2017/may/30/pilot-flies-for-science-in-ultralight-aircraft) */
 header #hero-image {
-  background: url(../images/header-bg.jpeg);
+  background: url(../images/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
