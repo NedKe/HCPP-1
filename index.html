@@ -15,37 +15,37 @@
 
 <body>
     <header>
-        <a href="index.html" class="logo">
-            <img src="assets/images/logo.png" alt="logo of Swedish Ultraflyers club">
+        <a class="logo" href="index.html">
+            <h1>Swedish Ultraflyers</h1>
         </a>
-        <div id="hero-image"></div>
+        <div id="hero-image" aria-label="Ultralight plane in the sky"></div>
         <nav>
             <a href="about_us.html">About</a>
             <a href="planes.html">Planes</a>
             <a href="certificate.html">Certificate</a>
         </nav>
     </header>
-    <main>
+    <main id="home-page">
         <section id="fly">
             <div class="content-container">
-
-                <h2>Flying is not a dream, Fly to feel free!</h2>
+                <h1>Flying is not a dream, Fly to feel free!</h1>
                 <p>Sign up for a test flight session to find out if you want to have a certificate or join Swedish
                     Ultraflyers club.
                     You will meet our instructors, ask any question and become familiar with our club and airplanes.
                     The session is 45 minutes and costs 1500 SEK but can be customized according to your wish!
                 </p>
+            </div>
         </section>
         <section id="signup">
             <div class="content-container">
                 <form action="thank-you.html" method="GET">
                     <div class="two-column-row">
-                        <div class="col1">
+                        <div>
                             <label for="fname">First Name</label>
                             <input id="fname" name="first_name" type="text" placeholder="Enter your first name"
                                 required>
                         </div>
-                        <div class="col2">
+                        <div>
                             <label for="lname">Last Name</label>
                             <input id="lname" name="last_name" type="text" placeholder="Enter your last name" required>
                         </div>
@@ -56,16 +56,16 @@
                     </div>
 
                     <div class="two-column-row">
-                        <div class="col1">
+                        <div>
                             <label for="date">Date</label>
                             <input type="date" id="date" name="flight_date" required>
                         </div>
-                        <div class="col2">
+                        <div>
                             <label for="time">Time</label>
                             <input type="time" id="time" name="flight_time" required>
                         </div>
                     </div>
-                    <div class="two-column-row">
+                    <div id="action-term" class="two-column-row">
                         <div class="submit">
                             <input type="submit" value="Let's Fly!"></a>
                         </div>
@@ -79,25 +79,26 @@
                 </form>
             </div>
         </section>
-    </main>r
+    </main>
+    <footer>
+        <a class="logo" href="index.html">
+            <h1>Swedish Ultraflyers</h1>
+        </a>
+        <p>&copy 2021 Swedish Ultraflyers, All rights reserved</p>
+        <div class="social_media">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                aria-label="find us on Facebook (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                aria-label="find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                aria-label="find us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener"
+                aria-label="find us on YouTube (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+    <!-- font awsome script for SVG icons -->
+    <script src="https://kit.fontawesome.com/6d0148ef8d.js" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <a class="logo" href="index.html">
-        <h1>Swedish Ultraflyers</h1>
-    </a>
-    <p>&copy 2021 Swedish Ultraflyers, All rights reserved</p>
-    <div class="social_media">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener"
-            aria-label="find us on Facebook (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener"
-            aria-label="find us on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener"
-            aria-label="find us on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener"
-            aria-label="find us on YouTube (opens in a new tab)"><i class="fab fa-youtube"></i></a>
-    </div>
-</footer>
-<!-- font awsome script for SVG icons -->
-<script src="https://kit.fontawesome.com/6d0148ef8d.js" crossorigin="anonymous"></script>
 
 </html>
