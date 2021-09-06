@@ -11,9 +11,16 @@ The following are users of the website:
 ![The image shows the website on different screen sizes](assets/images/responsive.png)
 
 ##Features
+
+####The Header
+The header contains a logo of the flight club, a navigation bar and a background picture.  The logo contains the club name and sticks to the top left of the header. The background image shows a propeller plane that leads the user visually about what the website is about. 
+
 ###User experince (UX) to consider 
 ##Test work
 ##Bugs
 ##Validation of html,css and accesibility by W3C and light house, respectively
+
+###Light house accesibility check
+
 ##Deployment
 ##Acknowledgement
