@@ -238,7 +238,7 @@ footer .social_media i:hover {
   border-top: 1px solid #ccc;
 }
 
-/* Coloring if different sections */
+/* Coloring of different sections */
 
 #fly,
 #history,
@@ -343,7 +343,7 @@ footer .social_media i:hover {
 #certificate .content-container h1,
 #certificate .content-container h2,
 #certificate .content-container p,
-#home-page .content-container h1,
+#home-page .content-container h2,
 #home-page .content-container p {
   text-align: center;
 }
