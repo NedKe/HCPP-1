@@ -580,23 +580,22 @@ footer .social_media i:hover {
     background-repeat: no-repeat;
     background-position: 10% top;
   }
-}
 
-.header-about {
-  height: 400px;
-}
+  .header-about {
+    height: 400px;
+  }
 
-.header-about .video-container {
-  font-size: 15px;
-}
+  .header-about .video-container {
+    font-size: 15px;
+  }
 
-#action-term #term {
-  padding-top: 0;
-}
+  #action-term #term {
+    padding-top: 0;
+  }
 
-#action-term.two-column-row .submit {
-  width: 100%;
-  margin-top: 25px;
-  order: 2;
-}
+  #action-term.two-column-row .submit {
+    width: 100%;
+    margin-top: 25px;
+    order: 2;
+  }
 }
