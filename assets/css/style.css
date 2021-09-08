@@ -27,7 +27,8 @@ main ul {
 
 header {
   position: relative;
-  min-height: 140px;
+  height: 600px;
+  overflow: hidden;
 }
 
 /* Logo */
@@ -52,21 +53,22 @@ header #hero-image {
   background-size: cover;
   height: 600px;
   transform: scaleX(-1);
+  transform-origin: center 80%;
   background-position: 0 40%;
   /* animates zoom effect on loading page*/
   animation-name: hero-zoom;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image*/
 @keyframes hero-zoom {
   from {
-    transform: scaleX(-1);
+    transform: scaleX(-1) scaleY(1);
   }
 
   to {
-    transform: scaleX(-1.1);
+    transform: scaleX(-1.1) scaleY(1.1);
   }
 }
 
@@ -570,6 +572,10 @@ footer .social_media i:hover {
   .contact-info>div div {
     width: 100%;
     margin-top: 40px;
+  }
+
+  header {
+    height: 300px;
   }
 
   header .logo {
