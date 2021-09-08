@@ -53,6 +53,21 @@ header #hero-image {
   height: 600px;
   transform: scaleX(-1);
   background-position: 0 40%;
+  /* animates zoom effect on loading page*/
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image*/
+@keyframes hero-zoom {
+  from {
+    transform: scaleX(-1);
+  }
+
+  to {
+    transform: scaleX(-1.1);
+  }
 }
 
 /* Fixed nav bar */
