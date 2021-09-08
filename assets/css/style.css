@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap')
 
 /* Reseting for all elements */
 * {
@@ -38,6 +39,10 @@ header .logo {
   margin: 15px 30px;
   color: #000;
   font-family: 'Allison', cursive;
+}
+
+header .logo h1:hover {
+  color: #7F4848;
 }
 
 /* The background image is taken from (https://www.aopa.org/news-and-media/all-news/2017/may/30/pilot-flies-for-science-in-ultralight-aircraft) */
@@ -232,9 +237,6 @@ footer .social_media i:hover {
 }
 
 /* Thank you page styles (when user registers in the home page and certificate page) */
-#thank-you {
-  padding: 40px 0;
-}
 
 #thank-you .content-container h2,
 #thank-you .content-container p {
@@ -380,7 +382,7 @@ footer .social_media i:hover {
 /* Media query for screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
   header nav a {
-    padding: 10px 20px;
+    padding: 10px 0;
   }
 
   .header-about .video-container {
@@ -557,9 +559,8 @@ footer .social_media i:hover {
     margin-top: 40px;
   }
 
-
   header .logo {
-    margin: 10px 0;
+    margin: 50px 0;
     font-size: 15px;
     margin-left: 3px;
     left: 50%;
@@ -570,7 +571,7 @@ footer .social_media i:hover {
   header nav {
     display: flex;
     justify-content: space-around;
-    top: 60px;
+    top: 0;
     left: 0;
     width: 100%;
     border-radius: 0;
