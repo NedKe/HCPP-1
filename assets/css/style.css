@@ -57,7 +57,7 @@ header #hero-image {
   background-position: 0 40%;
   /* animates zoom effect on loading page*/
   animation-name: hero-zoom;
-  animation-duration: 8s;
+  animation-duration: 10s;
   animation-fill-mode: forwards;
 }
 
@@ -618,6 +618,7 @@ footer .social_media i:hover {
   .header-about .video-container {
     font-size: 15px;
     top: 50%;
+    width: 45%;
   }
 
   .header-about .video-container h2 {
