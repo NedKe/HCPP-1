@@ -7,11 +7,11 @@
   padding: 0;
 }
 
-/* High level elements properties that should be the same everywhere */
 body {
   font-family: 'Nunito', sans-serif;
 }
 
+/* High level elements properties that should be the same everywhere */
 a {
   color: #6F3E3E;
 }
@@ -25,6 +25,7 @@ main ul {
   margin-top: 10px;
 }
 
+/* Shared styles */
 header {
   position: relative;
   height: 600px;
@@ -118,12 +119,6 @@ header nav .in-use {
   text-align: left;
 }
 
-/* Content container width for hom page and certificate page */
-#home-page .content-container,
-#certificate .content-container {
-  width: 50%;
-}
-
 /* form */
 form {
   margin-top: 30px;
@@ -131,10 +126,6 @@ form {
 
 .content-container>p {
   text-align: center;
-}
-
-form>div {
-  margin-bottom: 20px;
 }
 
 form .submit input {
@@ -185,18 +176,13 @@ input:focus {
   display: flex;
 }
 
+.two-column-row,
+#email_add {
+  margin-bottom: 15px;
+}
+
 .two-column-row>div {
   width: 50%;
-}
-
-#about-us .two-column-row,
-#planes .two-column-row {
-  align-items: center;
-}
-
-#about-us .two-column-row>div:nth-child(2),
-#planes .two-column-row>div:nth-child(2) {
-  padding-left: 20px;
 }
 
 .two-column-row>div img {
@@ -208,20 +194,8 @@ input:focus {
   padding-right: 10px;
 }
 
-#signup #email_add input {
-  width: 100%;
-}
-
 .two-column-row .last-row {
   align-items: center;
-}
-
-#action-term.two-column-row {
-  align-items: center;
-}
-
-#action-term.two-column-row>div {
-  width: auto;
 }
 
 /* Footer */
@@ -258,8 +232,37 @@ footer .logo h1:hover {
   color: #BBA79C;
 }
 
-/* Thank you page styles (when user registers in the home page and certificate page) */
+/* End of shared styles */
 
+/* Content container width for hom page and certificate page */
+#home-page .content-container,
+#certificate .content-container {
+  width: 50%;
+}
+
+#about-us .two-column-row,
+#planes .two-column-row {
+  align-items: center;
+}
+
+#about-us .two-column-row>div:nth-child(2),
+#planes .two-column-row>div:nth-child(2) {
+  padding-left: 20px;
+}
+
+#signup #email_add input {
+  width: 100%;
+}
+
+#action-term.two-column-row {
+  align-items: center;
+}
+
+#action-term.two-column-row>div {
+  width: auto;
+}
+
+/* Thank you page styles (when user registers in the home page and certificate page) */
 #thank-you .content-container h2,
 #thank-you .content-container p {
   text-align: center;
@@ -271,7 +274,6 @@ footer .logo h1:hover {
 }
 
 /* Coloring of different sections */
-
 #fly,
 #history,
 #dynamic,
@@ -518,8 +520,7 @@ footer .logo h1:hover {
   }
 }
 
-
-/* Media query for screen sizes from 620px wide and down*/
+/* Media query for screen sizes from 620px wide and down */
 @media screen and (max-width: 620px) {
 
   section {
