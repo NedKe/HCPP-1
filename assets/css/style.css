@@ -617,6 +617,11 @@ footer .social_media i:hover {
 
   .header-about .video-container {
     font-size: 15px;
+    top: 50%;
+  }
+
+  .header-about .video-container h2 {
+    font-size: 15px;
   }
 
   #action-term #term {
