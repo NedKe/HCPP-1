@@ -156,6 +156,7 @@ select {
   border-radius: 3px;
   outline: none;
   border: 2px solid #666;
+  width: 100%;
 }
 
 input[type=date] {
