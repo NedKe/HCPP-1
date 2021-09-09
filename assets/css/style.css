@@ -249,7 +249,8 @@ footer .social_media i {
   padding: 0 30px;
 }
 
-footer .social_media i:hover {
+footer .social_media i:hover,
+footer .logo h1:hover {
   color: #BBA79C;
 }
 
