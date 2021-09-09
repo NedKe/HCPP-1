@@ -196,14 +196,6 @@ input:focus {
   border-radius: 5px;
 }
 
-.two-column-row input[type="text"],
-.two-column-row input[type="date"],
-.two-column-row input[type="time"],
-.two-column-row input[type="email"],
-.two-column-row select {
-  width: 100%;
-}
-
 .two-column-row>div:nth-child(1) {
   padding-right: 10px;
 }
