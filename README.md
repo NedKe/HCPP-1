@@ -117,11 +117,13 @@ The footer contains the logo on the left side, the copyright text in the middle,
 ---
 
 ### Test work
-- Checked the sign up form in homepage and application form in page certificate so that all the validations work. Also controled the links to terms and conditions and confirmation page after submission open in a new tab.
-- Checked that all the external links open in new tab.
-- checked that the site works properly in safari and google chrome.
-- Used Chrome DevTools to check out the HTML and its related properties in CSS to improve my code and CSS. Using DevTools I also checked different screen sizes to make the webpage responsive. Later I checked the website on real GlaxyS9, iphone11, desktop screen and 13-inch macbookpro screen.  In addition I used console and fixed couple of errors related to placeholder that I set for date and time input. The placeholder is simply unnecessary for date and time input by removing it the error in console disappears. 
-- The contrast checker (https://webaim.org/resources/contrastchecker/) was used to make sure that the contrast between foreground and background passes the criteria for visually impaired individuals. 
+- Checked the signup form on the homepage and the application form on the page certificate and confirmed all the validations work. Also controlled the links to terms and conditions and confirmation page after submission open in a new tab.
+- Checked that all the external links open in a new tab.
+- Checked that the site works properly in safari and google chrome.
+- I used Chrome DevTools to check out the HTML and its related properties in CSS to improve my code and CSS. Using DevTools I also checked different screen sizes to make the webpage responsive. 
+- I also checked the website on real GlaxyS9, iphone11, desktop screen, and 13-inch MacBook Pro screen. 
+- I used the console in DevTools to find out errors, there was no error detected there.
+- The contrast checker (https://webaim.org/resources/contrastchecker/) was used to make sure that the contrast between foreground and background passes the criteria for visually impaired individuals.
 ---
 ### Bugs
 #### Reseolved issues
