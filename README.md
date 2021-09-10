@@ -207,5 +207,5 @@ I deployed my website to the GitHub page through the following steps:
 - I used the same code as the one used for the Love Running project for my social media links and animation on the header hero image.
 - The image used in the header is taken from: www.aopa.org
 - I also like to appreciate all the time and pieces of advice given by Maria Hynes.
-- I appreciate Carl Berglund,  the manager of the Swedish Ultraflyer club. He provided the pictures used on this website. An permitted me to use their content on my website.
+- I appreciate Carl Berglund,  the manager of the Swedish Ultraflyer club. He provided the pictures used on this website and permitted me to use their content on my website.
 - The text in this website is the partial translation from the Swedish to the English language of the text on the Swedish Ultraflyers website.
