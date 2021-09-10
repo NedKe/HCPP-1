@@ -1,12 +1,13 @@
 # Swedish Ultraflyers
 ### Introduction
-This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close to Stockholm that is specialized in ultralight planes (UL). I am an active member of the club and have a great passion for flying airplanes. Currently, the club has a website in the Swedish language (https://www.frolundaflygfalt.se/) and does not have the best design, see ***figure 1***. People who are looking for the best flight school or flight club may not know Swedish. Some people visit Stockholm during summertime, and they want to enjoy the scenery flying over the Baltic sea and archipelago. Also, some travelers on light planes to Frölunda landing at the club's airport. Therefore, I decided to make a website in the English language with a better design for the club.
+This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close to Stockholm that is specialized in ultralight planes (UL). I am an active member of the club and have a great passion for flying airplanes. Currently, the club has a website in the Swedish language (https://www.frolundaflygfalt.se/) and does not have the best design, see ***figure 1***. People looking for the best flight school or flight club may not know Swedish language. For example, people visit Stockholm during summertime, and they want to enjoy the scenery flying over the Baltic sea and archipelago and need to find information about the club in English. Also, pilots from other countries sometime land at the club's airport. Therefore, I decided to make a website in the English language with a better design for the club so that everyone mentioned above can easily access information about the club.
 <figure>
   <img src="assets/images/swedishultraflyers.png" alt="The image shows the Swedish Ultraflyers website in the Swedish language"/> 
   <figcaption>Figure 1. The screenshot of different pages of the Swedish Ultraflyers website in the Swedish language.</figcaption>
 </figure>
 
- The website provides information about the club, its school, the prices, and the type of ultralight planes that the club owns. This website gives the possibility to sign up for a test flight and to submit an interest application for the pilot certificate programs. Additionally, the website provides contact information and social media networks to the users.The following are users of the website:
+
+ The website provides information about the club, its school, the prices, and the type of ultralight planes that the club owns. The users can sign up for a test flight and submit an interest application for the pilot certificate programs. Additionally, the website provides contact information and social media networks to the users.The following are users of the website:
 - People interested to experience flying on an ultralight plane
 - The pilots who already have a certificate and want to become a member and use the facilities or airplanes at the Swedish Ultraflyers club. 
 - People who want to obtain a UL certificate or want to attend the theory program.
@@ -45,62 +46,62 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 ---
 
 ##### Homepage 
-- The first section of the homepage gives a brief introduction to the Swedish Ultraflyers and invites the user to have an experience of flying on an ultralight plane, see ***figure 4 left***.
-- The second section is a ***sign up form*** and give immediate access to the user to book a test flight at the Swedish Ultraflyers club and meet with the club's instructors see ***figure 4 right***. 
+- The first section of the homepage gives a brief introduction to the Swedish Ultraflyers and invites the user to have an experience of flying on an ultralight plane, see ***figure 5 left***.
+- The second section is a ***sign up form*** and give immediate access to the user to book a test flight at the Swedish Ultraflyers club and meet with the club's instructors see ***figure 5 right***. 
 <figure>
   <img src="assets/images/homepage-content.png" alt="The homepage sections"/> 
-  <figcaption>Figure 4. The homepage contents showing a form on the right and the text on the left </figcaption>
+  <figcaption>Figure 5. The homepage contents showing a form on the right and the text on the left </figcaption>
 </figure>
 
 ---
 
 ##### About 
- - The first section of this page he club's history and its curriculum, picture on the top with grey background color, see ***figure 5 left***. 
- - The second section presents the information about the ***Flight school***, picture on the top with light green color, see ***figure 5 right***.
-- At the bottom part of the About page, the contact and address information is provided on a yellow background, see ***figure 5 bottom***.
+ - The first section of this page he club's history and its curriculum, picture on the top with grey background color, see ***figure 6 left***. 
+ - The second section presents the information about the ***Flight school***, picture on the top with light green color, see ***figure 6 right***.
+- At the bottom part of the About page, the contact and address information is provided on a yellow background, see ***figure 6 bottom***.
  <figure>
   <img src="assets/images/readme-about.png" alt="Page About sections"/> 
-  <figcaption>Figure 5. The page About's contents showing the first section on the left picture, the second section on the right picture and the contact section at the bottom</figcaption>
+  <figcaption>Figure 6. The page About's contents showing the first section on the left picture, the second section on the right picture and the contact section at the bottom</figcaption>
 </figure>
 
 ---
 
 ##### Planes 
-The Planes page introduces the user to the types of ultralight planes that the club owns. This page is divided into three sections differentiated by colors, ***see figure 6***. Here the users learn what airplanes they should expect flying with if they are interested in joining as a club member or student to flight school. 
+The Planes page introduces the user to the types of ultralight planes that the club owns. This page is divided into three sections differentiated by colors, ***see figure 7***. Here the users learn what airplanes they should expect flying with if they are interested in joining as a club member or student to flight school. 
 <figure>
   <img src="assets/images/readme-planes.png" alt="Page plane sections"/> 
-  <figcaption>Figure 6. The page plane's contents showing the first section on the left picture introducing to Dynamic plane, the second section in the middile presents Skylane plane and the picture to the right is about about the seaplane</figcaption>
+  <figcaption>Figure 7. The page plane's contents showing the first section on the left picture introducing to Dynamic plane, the second section in the middile presents Skylane plane and the picture to the right is about about the seaplane</figcaption>
 </figure>
 
 ---
 
 ##### Ceritificate 
-- The first section is an introduction to flight training procedures followed by information about prices for users who want to become a club member, see ***figure 7 left***. 
+- The first section is an introduction to flight training procedures followed by information about prices for users who want to become a club member, see ***figure 8 left***. 
 
-- The second section provides prices to book different plane types followed by training costs for those who want to start flight training at the club's school, see ***figure 7 middle***. 
+- The second section provides prices to book different plane types followed by training costs for those who want to start flight training at the club's school, see ***figure 8 middle***. 
 
-- Finally, the third section of the certificate page is a ***form*** where the user can apply to the school training programs, see ***figure 7 right***. The form gives the users an option to choose what they want to apply for and pick up a start date. The user should be above 18 years old to fly with an instructor and provides information on the age so that the club can plan on what program they can start based on the user's age. If the user already has the medical certificate and student permit, which are required to fly with an instructor, they can also upload the files in this form. 
+- Finally, the third section of the certificate page is a ***form*** where the user can apply to the school training programs, see ***figure 8 right***. The form gives the users an option to choose what they want to apply for and pick up a start date. The user should be above 18 years old to fly with an instructor and provides information on the age so that the club can plan on what program they can start based on the user's age. If the user already has the medical certificate and student permit, which are required to fly with an instructor, they can also upload the files in this form. 
 
 
 <figure>
   <img src="assets/images/readme-cert.png" alt="Snapshot of all pages in one picture"/> 
-  <figcaption>Figure 7. The page certificate's contents showing the first section on the left, the second section in the middle, and the form section on the left.</figcaption>
+  <figcaption>Figure 8. The page certificate's contents showing the first section on the left, the second section in the middle, and the form section on the left.</figcaption>
 </figure>
 
 ---
 
 
 ##### Thank you 
-A page with a thank you message pops up when the ***Lets Fly***  or ***Submit your application*** buttons in ***homepage*** and page ***Certificate***, respectively, are pressed. This page gives a  confirmation to users that the buttons work and the form is submitted, see ***figure 8 top***.
+A page with a thank you message pops up when the ***Lets Fly***  or ***Submit your application*** buttons in ***homepage*** and page ***Certificate***, respectively, are pressed. This page gives a  confirmation to users that the buttons work and the form is submitted, see ***figure 9 top***.
 
 
 
 ##### Terms and conditions 
-In the form sections in ***homepage*** and page ***Certificate***, the user is provided with a link to read terms and conditions that open up in another tab if it is clicked. The users can read the terms before ticking the box. 
+In the form sections in ***homepage*** and page ***Certificate***, the user is provided with a link to read terms and conditions that open up in another tab if it is clicked. The users can read the terms before ticking the box,see ***figure 9 bottom*** . 
 
 <figure>
   <img src="assets/images/thank-terms.png" alt="confirmation and terms content"/> 
-  <figcaption>Figure 9. The message in confirmation page is at the top and the content of page terms and conditions is at the bottom of the picture.</figcaption>
+  <figcaption>Figure 9. The message in confirmation page at the top. The content of page terms and conditions at the bottom.</figcaption>
 </figure>
 
 
@@ -116,7 +117,7 @@ The footer contains the logo on the left side, the copyright text in the middle,
 ---
 
 ### Test work
--Checked the sign up form in homepage and application form in page certificate so that all the validations work. Also controled the links to terms and conditions and confirmation page after submission open in a new tab.
+- Checked the sign up form in homepage and application form in page certificate so that all the validations work. Also controled the links to terms and conditions and confirmation page after submission open in a new tab.
 - Checked that all the external links open in new tab.
 - checked that the site works properly in safari and google chrome.
 - Used Chrome DevTools to check out the HTML and its related properties in CSS to improve my code and CSS. Using DevTools I also checked different screen sizes to make the webpage responsive. Later I checked the website on real GlaxyS9, iphone11, desktop screen and 13-inch macbookpro screen.  In addition I used console and fixed couple of errors related to placeholder that I set for date and time input. The placeholder is simply unnecessary for date and time input by removing it the error in console disappears. 
