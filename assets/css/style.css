@@ -403,6 +403,10 @@ footer .logo h1:hover {
   margin: 10px 0;
 }
 
+#terms h3 {
+  margin-top: 30px;
+}
+
 /* Media query for screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
   .header-about .video-container {
