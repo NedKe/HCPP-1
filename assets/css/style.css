@@ -419,10 +419,6 @@ footer .logo h1:hover {
 
   #home-page .content-container,
   #certificate .content-container {
-    width: 90%;
-  }
-
-  #home-page .content-container {
     width: 80%;
   }
 
