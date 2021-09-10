@@ -55,7 +55,7 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 
 ---
 
-##### About 
+##### About page
  - The first section of this page he club's history and its curriculum, picture on the top with grey background color, see ***figure 6 left***. 
  - The second section presents the information about the ***Flight school***, picture on the top with light green color, see ***figure 6 right***.
 - At the bottom part of the About page, the contact and address information is provided on a yellow background, see ***figure 6 bottom***.
@@ -66,7 +66,7 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 
 ---
 
-##### Planes 
+##### Planes page
 The Planes page introduces the user to the types of ultralight planes that the club owns. This page is divided into three sections differentiated by colors, ***see figure 7***. Here the users learn what airplanes they should expect flying with if they are interested in joining as a club member or student to flight school. 
 <figure>
   <img src="assets/images/readme-planes.png" alt="Page plane sections"/> 
@@ -75,7 +75,7 @@ The Planes page introduces the user to the types of ultralight planes that the c
 
 ---
 
-##### Ceritificate 
+##### Ceritificate page
 - The first section is an introduction to flight training procedures followed by information about prices for users who want to become a club member, see ***figure 8 left***. 
 
 - The second section provides prices to book different plane types followed by training costs for those who want to start flight training at the club's school, see ***figure 8 middle***. 
@@ -91,12 +91,12 @@ The Planes page introduces the user to the types of ultralight planes that the c
 ---
 
 
-##### Thank you 
+##### Thank you page
 A page with a thank you message pops up when the ***Lets Fly***  or ***Submit your application*** buttons in ***homepage*** and page ***Certificate***, respectively, are pressed. This page gives a  confirmation to users that the buttons work and the form is submitted, see ***figure 9 top***.
 
 
 
-##### Terms and conditions 
+##### Terms and conditions page
 In the form sections in ***homepage*** and page ***Certificate***, the user is provided with a link to read terms and conditions that open up in another tab if it is clicked. The users can read the terms before ticking the box,see ***figure 9 bottom*** . 
 
 <figure>
