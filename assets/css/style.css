@@ -409,6 +409,28 @@ footer .logo h1:hover {
 
 /* Media query for screen sizes from 1200px wide and down*/
 @media screen and (max-width: 1200px) {
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    left: auto;
+    margin-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  header nav a {
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 17px;
+  }
+
+  header .logo {
+    font-size: 20px;
+    margin: 36px 20px;
+  }
+
   .header-about .video-container {
     width: 60%;
   }
@@ -495,28 +517,6 @@ footer .logo h1:hover {
 
   .contact-info>div div {
     width: 50%;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: flex-end;
-    right: 0;
-    left: auto;
-    margin-right: 0;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background: rgba(0, 0, 0, 0.8);
-  }
-
-  header nav a {
-    color: #fff;
-    font-size: 16px;
-    padding: 15px 15px;
-  }
-
-  header .logo {
-    font-size: 20px;
-    margin: 36px 20px;
   }
 }
 
