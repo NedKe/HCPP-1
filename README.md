@@ -205,7 +205,7 @@ I deployed my website to the GitHub page through the following steps:
 - In my GitHub account,  my project repository HCPP-1 and setting > pages, I used the main branch as the source and saved it. Then the page provided me with a link to my website.
 ---
 ### Credits
-- #### content
+- #### Content
   - The same code as the one used for the Love Running project is used for social media links and animation on the header hero image.
   - The social media icons are from Font Awesome
   - The material icons on the page certificate are taken from Google icons
