@@ -56,7 +56,7 @@ header #hero-image {
   transform: scaleX(-1);
   transform-origin: center 80%;
   background-position: 0 40%;
-  /* animates zoom effect on loading page*/
+  /* animates zoom effect on loading page, the code is taken from Love Running project*/
   animation-name: hero-zoom;
   animation-duration: 6s;
   animation-fill-mode: forwards;
