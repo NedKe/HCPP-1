@@ -204,12 +204,18 @@ I deployed my website to the GitHub page through the following steps:
 - First used the git push command to push my last update to GitHub
 - In my GitHub account,  my project repository HCPP-1 and setting > pages, I used the main branch as the source and saved it. Then the page provided me with a link to my website.
 ---
-### Acknowledgement
-- I used https://www.w3schools.com/ and https://developer.mozilla.org/ to read and learn more on how to write HTML and CSS.
-- I used https://mycolor.space/ to find matching shades for different sections of my website.
-- I used the same code as the one used for the Love Running project for my social media links and animation on the header hero image.
-- The image used in the header is taken from: https://www.aopa.org/ .
-- I also like to appreciate all the time and pieces of advice given by Maria Hynes.
-- I appreciate Carl Berglund,  the manager of the Swedish Ultraflyer club. He provided the pictures used on this website and permitted me to use their content on my website.
-- The text in this website is the partial translation from the Swedish to the English language of the text on the Swedish Ultraflyers website.
+### Credits
+- #### content
+  - The same code as the one used for the Love Running project is used for social media links and animation on the header hero image.
+  - The social media icons are from Font Awesome
+  - The material icons on the page certificate are taken from Google icons
+  - I used https://mycolor.space/ to find matching shades for different sections of my website.
+- #### Learning material
+  - I used https://www.w3schools.com/ and https://developer.mozilla.org/ to read and learn more on how to write HTML and CSS.
+- #### Pictures
+  - The image used in the header is taken from: https://www.aopa.org/.
+  - The pictures used in the body of the website are sent to me by Carl Berglund,  the manager of the Swedish Ultraflyer club. He provided the pictures used on the website and permitted me to use their content on my website.
+  - The text in this website is the partial translation from the Swedish to the English language of the text on the Swedish Ultraflyers website.
+
+At last but not least I want to appreciate all the time and pieces of advice given by Maria Hynes.
 
