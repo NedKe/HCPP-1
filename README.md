@@ -143,7 +143,7 @@ The footer contains the logo on the left side, the copyright text in the middle,
 - To increase the  loading speed when the site open up on mobiles I reduced the size of all pictures used in the site. Then in the HTML file, I nested the ***img*** element in the ***picture*** element and give it the target screen size in the ***source*** that improved the Lighthouse performance score.
 ```
 <picture>
-<source media="(max-width:620px)" srcset="assets/images/se-vod-copy.jpg">
+<source media="(max-width:620px)" srcset="assets/images/se-vod-mobile.jpg">
 <img src="assets/images/se-vod.jpg" alt="dynamic model airplane standing on the ground">
 </picture>
 ```
@@ -160,7 +160,7 @@ The footer contains the logo on the left side, the copyright text in the middle,
   - For screen size 620px and down
     ```
     header #hero-image {
-    background: url(../images/header-bg-copy.jpg);
+    background: url(../images/header-bg-mobile.jpg);
     }
     ```
 - The select element in form in certificate page did not adopt the style when opened in Safari. This is fixed as follow:

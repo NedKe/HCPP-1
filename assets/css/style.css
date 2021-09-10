@@ -611,7 +611,7 @@ footer .logo h1:hover {
 
   header #hero-image {
     height: 400px;
-    background: url(../images/header-bg-copy.jpg);
+    background: url(../images/header-bg-mobile.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 10% top;
