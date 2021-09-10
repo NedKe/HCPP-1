@@ -3,7 +3,7 @@
 This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close to Stockholm that is specialized in ultralight planes (UL). I am an active member of the club and have a great passion for flying airplanes. Currently, the club has a website in the Swedish language (https://www.frolundaflygfalt.se/) and does not have the best design, see ***figure 1***. People looking for the best flight school or flight club may not know Swedish language. For example, people visit Stockholm during summertime, and they want to enjoy the scenery flying over the Baltic sea and archipelago and need to find information about the club in English. Also, pilots from other countries sometime land at the club's airport. Therefore, I decided to make a website in the English language with a better design for the club so that everyone mentioned above can easily access information about the club.
 <figure>
   <img src="assets/images/swedishultraflyers.png" alt="The image shows the Swedish Ultraflyers website in the Swedish language"/> 
-  <figcaption>Figure 1. The screenshot of different pages of the Swedish Ultraflyers website in the Swedish language.</figcaption>
+  <figcaption><strong>Figure 1.</strong> The screenshot of different pages of the Swedish Ultraflyers website in the Swedish language.</figcaption>
 </figure>
 
 
@@ -17,7 +17,7 @@ This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close
 ### Am I Responsive 
 <figure>
   <img src="assets/images/responsive.png" alt="The website on different screen sizes"/> 
-  <figcaption>Figure 2. The screenshot from the am I responsive website showing that the website is responsive at different screen size </figcaption>
+  <figcaption><strong>Figure 2.</strong> The screenshot from the am I responsive website showing that the website is responsive at different screen size </figcaption>
 </figure>
 
 ---
@@ -31,7 +31,7 @@ This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close
    - The logo in the header and footer also links to the Homepage.
    <figure>
   <img src="assets/images/navbar.png" alt="The navihgation menu"/> 
-  <figcaption>Figure 3. The picture to the left shows navigation bar one large and medium size scree and the picture to the left shows the navigation bar at screen sizes below 620px. </figcaption>
+  <figcaption><strong>Figure 3.</strong> The picture to the left shows navigation bar one large and medium size scree and the picture to the left shows the navigation bar at screen sizes below 620px. </figcaption>
 </figure>
 
 ---
@@ -40,7 +40,7 @@ This Swedish Ultraflyers (SUF) website is about a flight club in Frölunda close
 The header has a logo of the flight club, a navigation bar, and a background picture, see ***figure 4 left***. The logo is the club name and sits at the top left of the header. The background image shows an ultralight plane in the air giving the clue on what the site is about. On ***About*** page, see ***figure 4 right*** the header has a  feature presenting a video on a blank background that is muted and is on autoplay.
 <figure>
   <img src="assets/images/readme-header.png" alt="The header content"/> 
-  <figcaption>Figure 4. The picture on the right shows the header in About page and the picture on the left shows the header on all other pages</figcaption>
+  <figcaption><strong>Figure 4.</strong> The picture on the right shows the header in About page and the picture on the left shows the header on all other pages</figcaption>
 </figure>
 
 ---
@@ -50,7 +50,7 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 - The second section is a ***sign up form*** and give immediate access to the user to book a test flight at the Swedish Ultraflyers club and meet with the club's instructors see ***figure 5 right***. 
 <figure>
   <img src="assets/images/homepage-content.png" alt="The homepage sections"/> 
-  <figcaption>Figure 5. The homepage contents showing a form on the right and the text on the left </figcaption>
+  <figcaption><strong>Figure 5.</strong> The homepage contents showing a form on the right and the text on the left </figcaption>
 </figure>
 
 ---
@@ -61,7 +61,7 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 - At the bottom part of the About page, the contact and address information is provided on a yellow background, see ***figure 6 bottom***.
  <figure>
   <img src="assets/images/readme-about.png" alt="Page About sections"/> 
-  <figcaption>Figure 6. The page About's contents showing the first section on the left picture, the second section on the right picture and the contact section at the bottom</figcaption>
+  <figcaption><strong>Figure 6.</strong> The page About's contents showing the first section on the left picture, the second section on the right picture and the contact section at the bottom</figcaption>
 </figure>
 
 ---
@@ -70,7 +70,7 @@ The header has a logo of the flight club, a navigation bar, and a background pic
 The Planes page introduces the user to the types of ultralight planes that the club owns. This page is divided into three sections differentiated by colors, ***see figure 7***. Here the users learn what airplanes they should expect flying with if they are interested in joining as a club member or student to flight school. 
 <figure>
   <img src="assets/images/readme-planes.png" alt="Page plane sections"/> 
-  <figcaption>Figure 7. The page plane's contents showing the first section on the left picture introducing to Dynamic plane, the second section in the middile presents Skylane plane and the picture to the right is about about the seaplane</figcaption>
+  <figcaption><strong>Figure 7.</strong> The page plane's contents showing the first section on the left picture introducing to Dynamic plane, the second section in the middile presents Skylane plane and the picture to the right is about about the seaplane</figcaption>
 </figure>
 
 ---
@@ -85,7 +85,7 @@ The Planes page introduces the user to the types of ultralight planes that the c
 
 <figure>
   <img src="assets/images/readme-cert.png" alt="Snapshot of all pages in one picture"/> 
-  <figcaption>Figure 8. The page certificate's contents showing the first section on the left, the second section in the middle, and the form section on the left.</figcaption>
+  <figcaption><strong>Figure 8.</strong> The page certificate's contents showing the first section on the left, the second section in the middle, and the form section on the left.</figcaption>
 </figure>
 
 ---
@@ -101,7 +101,7 @@ In the form sections in ***homepage*** and page ***Certificate***, the user is p
 
 <figure>
   <img src="assets/images/thank-terms.png" alt="confirmation and terms content"/> 
-  <figcaption>Figure 9. The message in confirmation page at the top. The content of page terms and conditions at the bottom.</figcaption>
+  <figcaption><strong>Figure 9.</strong> The message in confirmation page at the top. The content of page terms and conditions at the bottom.</figcaption>
 </figure>
 
 
@@ -111,7 +111,7 @@ In the form sections in ***homepage*** and page ***Certificate***, the user is p
 The footer contains the logo on the left side, the copyright text in the middle, and the SVG icons links to social media are on the right side of the footer, see ***figure 10***. The logo and social media have hover pseudoclass and change color when users hovers on them. The social media open up in a new tab. The logo at footer opens the homepage if it is clicked by users.
 <figure>
   <img src="assets/images/footer.png" alt="The website's footer"/> 
-  <figcaption>Figure 10. The footer of the website with social media icons and logo</figcaption>
+  <figcaption><strong>Figure 10.</strong> The footer of the website with social media icons and logo</figcaption>
 </figure>
 
 ---
@@ -181,21 +181,21 @@ input[type=time] {
   
 <figure>
   <img src="assets/images/w3c-css.png" alt="Report generated by W3C HTML and CSS validation tool" height="200"/> 
-  <figcaption>Figure 11. The  report generated by W3C HTML and CSS validation tool confirming that no error was found on my HTML and CSS files. </figcaption>
+  <figcaption><strong>Figure 11.</strong> The  report generated by W3C HTML and CSS validation tool confirming that no error was found on my HTML and CSS files. </figcaption>
 </figure>
 
 - - The accessibility is tested by the Lighthouse too for mobile and desktop. A score of 100 is generated for  accessibility, see ***figure 12***: 
 
 <figure>
   <img src="assets/images/lighthouse-report.png" alt="The lighthouse accessibility report" height="200"/> 
-  <figcaption>Figure 12. The summary report generated by Lighthouse. The top and bottom report are generated for desktop and mobile, respectively. </figcaption>
+  <figcaption><strong>Figure 12.</strong> The summary report generated by Lighthouse. The top and bottom report are generated for desktop and mobile, respectively. </figcaption>
 </figure>
 
 ---
  - The accessibility for users with impairment is checked by WAVE evaluation tool (https://wave.webaim.org/), and the report showed no error for all pages, see ***figure 13***. 
  <figure>
   <img src="assets/images/wave.png" alt="Wave report" height="300" width="200"/> 
-  <figcaption>Figure 13. The summary report generated by Wave validation tool</figcaption>
+  <figcaption><strong>Figure 13.</strong> The summary report generated by Wave validation tool</figcaption>
 </figure>
 
 ---
